@@ -2,6 +2,9 @@
 
 CLI for [Seyhun Akyurek](https://seyhunakyurek.com) portfolio — AI Architect & Delivery Lead (Dubai, UAE). It is a zero-install, agent-friendly client for the site's public WebMCP portfolio API.
 
+[![npm](https://img.shields.io/npm/v/seyhunakyurek)](https://www.npmjs.com/package/seyhunakyurek) [![GitHub](https://img.shields.io/github/stars/seyhunak/seyhunakyurek-cli)](https://github.com/seyhunak/seyhunakyurek-cli)
+
+
 ## Quick start
 
 ```bash
@@ -17,14 +20,22 @@ Commands emit machine-readable JSON when `--json` is used. Read-only requests re
 
 ## Install
 
-Install from npm (after the package is published):
-
+Install directly from npm—no clone or global install is required:
 
 ```bash
-npm i -g seyhunakyurek
-# or
 npx seyhunakyurek --help
 ```
+
+Install globally when you want the command available in your shell:
+
+```bash
+npm install -g seyhunakyurek
+seyhunakyurek --help
+```
+
+Published package: [seyhunakyurek on npm](https://www.npmjs.com/package/seyhunakyurek)
+
+Requires Node.js 18 or newer. The npm package is the same source published from the [public GitHub repository](https://github.com/seyhunak/seyhunakyurek-cli).
 
 ## API
 
@@ -36,7 +47,8 @@ npx seyhunakyurek --help
 
 ## Source
 
-https://github.com/seyhunak/seyhunakyurek-cli
+- [Public GitHub repository](https://github.com/seyhunak/seyhunakyurek-cli)
+- [Published npm package](https://www.npmjs.com/package/seyhunakyurek)
 
 ## Repository
 
